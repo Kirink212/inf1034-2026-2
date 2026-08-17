@@ -6,3 +6,6 @@ peso = input("Digite o seu peso:")
 
 imc = calcula_imc(peso, altura)
 print(f"O seu IMC é {imc}")
+
+if imc > 30:
+  print("Você está com obesidade. VAI PRO MÉDICO! POR FAVOR!!")
